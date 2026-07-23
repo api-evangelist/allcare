@@ -1,7 +1,16 @@
 aid: allcare
 name: AllCare
-description: AllCare is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  AllCare is a Philippines-based digital employee-benefits and healthcare membership
+  platform for freelancers and small-to-medium enterprises. It aggregates worker
+  benefits that individuals and small teams would otherwise struggle to access,
+  bundling HMO coverage, group life insurance, 24/7 teleconsultation, dental and
+  optical care, mental-health counseling, annual physical exams, and productivity
+  perks into flat-rate membership packages. Its SME Benefits Package is sold on an
+  annual per-employee basis (minimum five employees) and is managed through a web
+  dashboard for enrollment, member management, and benefit utilization. AllCare is
+  a portfolio company of 500 Global and is tracked in the API Evangelist network as
+  a healthcare/insurtech company profile.
 url: https://raw.githubusercontent.com/api-evangelist/allcare/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +18,31 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://d369ki9zotvbgv.cloudfront.net/web/production/assets/packs/media/images/meta-image-603d9c99f903c8dcb9ef20c6f54e3694.png
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Healthcare
+- Insurance
+- Employee Benefits
+- HMO
+- Teleconsultation
+- Insurtech
+- Philippines
+- SME
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +51,25 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://allcare.ph
+  url: https://www.allcare.ph
+- type: SignUp
+  url: https://www.allcare.ph/register
+- type: Login
+  url: https://www.allcare.ph/login
+- type: Support
+  url: https://www.allcare.ph/contact-us
+- type: HelpCenter
+  url: https://www.allcare.ph/faqs
+- type: Blog
+  url: https://www.allcare.ph/blogs
+- type: TermsOfService
+  url: https://www.allcare.ph/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.allcare.ph/privacy-policy
+- type: DomainSecurity
+  url: security/allcare-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
