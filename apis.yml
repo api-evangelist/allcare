@@ -30,7 +30,7 @@ accessModel:
   generated: '2026-07-22'
   method: derived
 image: https://d369ki9zotvbgv.cloudfront.net/web/production/assets/packs/media/images/meta-image-603d9c99f903c8dcb9ef20c6f54e3694.png
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-17'
 tags:
